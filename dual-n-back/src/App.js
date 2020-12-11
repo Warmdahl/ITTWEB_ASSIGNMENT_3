@@ -27,7 +27,7 @@ export default class App extends React.Component {
   }
 
   
-  ws = new WebSocket('ws://localhost:8080');
+  ws = new WebSocket('wss://dual-n-back-gruppe13-backend.herokuapp.com/');
 
   componentDidMount() {
     this.ws.onopen = () => {
