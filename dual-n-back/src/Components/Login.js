@@ -40,7 +40,7 @@ export default class LogIn extends React.Component {
 
         const that = this;
         //insert User login API post here pls!
-        fetch('https://dual-n-back-gruppe13-backend.herokuapp.com/users/login', {
+        fetch('http://localhost:8080/users/login', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
