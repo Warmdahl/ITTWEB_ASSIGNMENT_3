@@ -1,0 +1,10 @@
+In Front-end:
+1. cd .\dual-n-back\
+2. npm i
+3. npm run build
+4. serve -s build
+
+In Back-end:
+1. cd .\dual-n-back-backend\
+2. npm i
+3. nodemon
